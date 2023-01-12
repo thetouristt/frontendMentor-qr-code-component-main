@@ -1,0 +1,41 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #CCD8E6;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+}
+
+.caja{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+    background-color: #fff;
+    border-radius: 1.2em;
+    text-align: center;
+
+    box-shadow: 0 0 20px #cbcbcb;
+}
+.caja .textos{
+    padding: 0 2em;
+}
+.caja img{
+    max-width: 100%;
+    border-radius: 1.2em;
+}
+.caja h2{
+    color: #1A2842;
+    font-weight: 700;
+}
+
+.caja p{
+    color: #888B90;
+    font-size: 15px;
+    font-weight: 400;
+}
